@@ -1,0 +1,30 @@
+.container{
+    max-width: 1440px;
+    padding: 0 160px;
+    nav{
+        margin: 24px 0;
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 32px;
+            button{
+                background-color: $color1;
+                border-radius: 8px;
+                border: none;
+                padding: 8px 12px;
+                transition: 0.4s ease-in-out;
+                &:hover{
+                    background-color: $main_color;
+                    color: white;
+                }
+            }
+        }
+        .image{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 16px;
+        }
+    }
+}

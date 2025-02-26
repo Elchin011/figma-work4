@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", serif;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 160px;
+}
+.container nav {
+  margin: 24px 0;
+}
+.container nav .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.container nav .btn button {
+  background-color: #F9F9FB;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 12px;
+  transition: 0.4s ease-in-out;
+}
+.container nav .btn button:hover {
+  background-color: #3328BF;
+  color: white;
+}
+.container nav .image {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+#embark {
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+#embark .container {
+  max-width: 1440px;
+  padding: 0 160px;
+}
+#embark .container .embark_info {
+  margin-bottom: 50px;
+}
+#embark .container .embark_info h1 {
+  color: #0D0D0D;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -1.2px;
+  text-align: center;
+}
+#embark .container .embark_card .embark_card_left button {
+  margin-bottom: 10px;
+  color: #0D0D0D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 4px 12px;
+  border-radius: 500px;
+  border: 1px solid #D6D6D6;
+  background-color: transparent;
+}
+#embark .container .embark_card .embark_card_left h2 {
+  margin-bottom: 16px;
+  color: #0D0D0D;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+#embark .container .embark_card .embark_card_left h5 {
+  width: 544px;
+  margin-bottom: 24px;
+  color: #808080;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#embark .container .embark_card .embark_card_left .left_icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#embark .container .embark_card .embark_card_left .left_icon p {
+  color: #0D0D0D;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+#embark .container .embark_card .embark_card_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#hero {
+  background-color: #F9F9FB;
+}
+#hero .hero_cards {
+  padding: 60px 0;
+}
+#hero .hero_cards .hero_card .hero_card_info {
+  width: 198px;
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero_cards .hero_card .hero_card_info .info_left h3 {
+  color: #0D0D0D;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+#hero .hero_cards .hero_card .hero_card_info .info_left h4 {
+  color: #808080;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+#hero .hero_cards .hero_card .hero_card_info .info_right {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #fffefe;
+  border-radius: 8px;
+  border: 1px solid #D6D6D6;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  transition: 0.4s ease-in-out;
+}
+#hero .hero_cards .hero_card .hero_card_info .info_right:hover {
+  background-color: #3328BF;
+  color: white;
+}
+#hero .hero_cards .hero_card .hero_card_info .info_right i {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

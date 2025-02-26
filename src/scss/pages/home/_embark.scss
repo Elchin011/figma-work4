@@ -1,0 +1,74 @@
+#embark{
+    margin-top: 60px;
+    margin-bottom: 90px;
+   .container{
+    max-width: 1440px;
+    padding: 0 160px;
+    .embark_info{
+        margin-bottom: 50px;
+        h1{
+            color: $dark_color;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: $default_weight_xl;
+            line-height: 72px; 
+            letter-spacing: -1.2px;
+            text-align: center;
+        }
+    }
+    .embark_card{
+        .embark_card_left{
+            button{
+                margin-bottom: 10px;
+                color: $dark_color;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: $default_weight_m;
+                line-height: 20px;
+                padding: 4px 12px;
+                border-radius: 500px;
+                border: 1px solid  #D6D6D6;
+                background-color: transparent;
+                // &:hover{
+                //     background-color: $main_color;
+                //     color: white;
+                //     border: none;
+                // }
+            }
+            h2{
+                margin-bottom: 16px;
+                color: $dark_color;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: $default_weight_m;
+                line-height: 38px; 
+            }
+            h5{
+                width: 544px;
+                margin-bottom: 24px;
+                color: $secondary_color;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: $default_weight_s;
+                line-height: 24px;
+            }
+            .left_icon{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                p{
+                    color: $dark_color;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: $default_weight_m;
+                    line-height: 20px; 
+                }
+            }
+        }
+        .embark_card_right{
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+   }
+}

@@ -1,0 +1,54 @@
+#hero{
+    background-color: $color1;
+    .hero_cards{
+        padding: 60px 0;
+        .hero_card{
+            .hero_card_img{
+
+            }
+            .hero_card_info{
+                width: 198px;
+                margin-top: 14px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .info_left{
+                    h3{
+                        color: $dark_color;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: $default_weight_m;
+                        line-height: 32px;
+                    }
+                    h4{
+                        color: $secondary_color;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: $default_weight_s;
+                        line-height: 24px; /* 150% */
+                    }
+                }
+                .info_right{
+                    display: flex;
+                    width: 40px;
+                    height: 40px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    background-color: #fffefe;
+                    border-radius: 8px;
+                    border: 1px solid  #D6D6D6;
+                    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+                    transition: 0.4s ease-in-out;
+                    &:hover{
+                        background-color: $main_color;
+                        color: white;
+                    }
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
